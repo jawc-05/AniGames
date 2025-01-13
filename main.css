@@ -135,3 +135,17 @@ footer{
 footer p{
     margin-left: 38%;
 }
+
+.articles img{
+    width: 70%;
+    margin-top: 20px;    
+}
+
+.articles h2{
+    margin-top: 33px;
+}
+
+.articles p{
+    margin-left: 1px;
+    margin-top: 1%;
+}
