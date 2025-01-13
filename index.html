@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="p-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,11 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html"><h1>AniGames</h1></a>
+            <!-- Novo contêiner para logo e título -->
+            <a href="index.html" class="logo-container">
+                <img class="logo" src="./Imagens/logo-removebg-preview.png" alt="logo">
+                <h1>AniGames</h1>
+            </a>
             <nav>
                 <ul>
                     <li>
@@ -27,11 +31,32 @@
         <div class="container">
             <img class="face-site" src="./Imagens/anigames.png" alt="imagem da página">
             <div>
-                <h2>O que falamos no nosso site?</h2>
-                <p>Aqui iremos dar todos os tipos de recomendações relacionadas a animes e jogos(games hahaha)</p>
-                <p>Venha adquirir conhecimento e trocar experiencias</p>
+                <h2>O que você encontra aqui?</h2>
+                <p>No AniGames, você encontra tudo sobre animes e jogos em um só lugar. Descubra análises de animes clássicos e lançamentos recentes, além de listas de recomendações para todos os estilos. Para os gamers, trazemos reviews, notícias de lançamentos e dicas exclusivas</p>
+                <p>Participe de nossa comunidade, compartilhe opiniões, jogue e explore o melhor da cultura geek. Aqui, diversão e conhecimento estão garantidos!</p>
             </div>
         </div>
     </section>
+    <section id="sign">
+        <div class="container">
+            <div class="sign-methods">
+                <form>
+                    <h2>Crie sua conta aqui</h2>
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <input type="password" placeholder="Sua Senha" required>
+                    <input type="password" placeholder="Confirme sua Senha" required> 
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="copy">
+        <div class="container">
+            <p>
+                &copy; AniGames - Todos os Direitos Reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

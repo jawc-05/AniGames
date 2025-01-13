@@ -5,9 +5,15 @@
 }
 
 header, 
-.container a{
+.container a,
+.container h2,
+button{
     font-family: 'Bungee', cursive;
     font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", serif;
 }
 
 body{
@@ -21,14 +27,13 @@ body{
 }
 
 header{
-    padding: 16px 0;
+    padding: 30px 0;
     background-color: #8B0000;
     color: #fffbb2;
 }
 
 header nav li{
     display: inline;
-    margin-left: 16px;
     font-size: 18px;
 }
 
@@ -42,19 +47,91 @@ header nav li a{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-}
-
-header .container{
-    display: flex;
-    align-items: center;
+    display: flex;    
     justify-content: space-between;
 }
 
-#about{
-    align-items: flex-start;
+header .logo-container{
+    display: flex;
+    align-items: center;
+}
+
+header .logo-container img.logo{
+    height: 35px;
+    margin-right: 2px;
+}
+
+header h1{
+    font-size: 24px;
+}
+
+#about h2{
+    margin-top: 16px;
 }
 
 .face-site{
     margin-top: 16px;
     max-height: 500px;
+}
+
+#about h2,
+p{
+    margin-left: 40px;
+}
+
+#about p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sign {
+    display: flex;
+    justify-content: flex-end; /* Move o conteúdo para a direita */
+    position: relative; /* Permite ajuste adicional se necessário */
+}
+
+#sign .container {
+    display: flex; /* Mantém o flex na estrutura interna */
+    width: 200px; /* Ajusta o tamanho ao conteúdo */
+    margin-top: -300px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #8B0000;
+    color: #FAF3DD;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #a04040;
+}
+
+footer{
+    background-color: #8B0000;
+    color: #FAF3DD;
+    padding: 16px 0;
+    margin-top: 270px;
+}
+
+footer p{
+    margin-left: 400px;
 }
